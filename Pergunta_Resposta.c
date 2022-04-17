@@ -7,18 +7,18 @@ int main(){
 
  printf("Digite seu nome: \n");
 
- gets(nome);
+gets(nome);
 
  printf("Digite sua idade: ");
  scanf("%i", &i);
 
  if (i >= 18 )
  {
-    printf("%s, você pode dirigir muleke DOIDOOO !!", nome);
+    printf("%s, você pode dirigir muleke DOIDOOO !! \n", nome);
  }
  else
  {
-     printf("%s, você ainda tem que andar a pé kkk ", nome);
+     printf("%s, você ainda tem que andar a pé kkk \n", nome);
  }
  return 0;
 

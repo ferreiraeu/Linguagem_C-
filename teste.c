@@ -1,12 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main(void)
-
 {
-    int x = get_int("x: ");
-
-    int y = get_int("y: ");
-
-    printf("%i\n", x + y);
+  int A, B, Soma;
+  printf("Digite um numero inteiro: ");
+  scanf("%d", &A);
+  
+  printf("Digite um numero inteiro: ");
+  scanf("%d", &B);
+  
+  Soma = A + B;
+  printf("O Valor da soma = %d\n", Soma);
+  
+  if(Soma > 10)
+  {
+    printf("O valor da soma e maior que 10\n");
+  }
+  else
+  {
+    printf("Valor menor ou igual a 10\n");
+  }
+  
+  system("PAUSE");
+  return(0);
 }
